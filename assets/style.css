@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+body {
+    background: #17162E;
+    font-family: 'Kumbh Sans';
+}
+
+.card__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__header__title {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.card__header__pesquisar {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.card__header__input-text {
+    width: 300px;
+    border: none;
+}
+
+.card__header__input-text:focus {
+    outline: none;
+}
+
+.card__header__input-text::placeholder,
+.card__header__input-text {
+    color: #17162E;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card__header__input__img {
+    width: 18px;
+    height: 18px;
+}
+
+.card__header__checkbox {
+    gap: 3px;
+}
+
+#card__header__input-checkbox {
+    border: 2px solid #706EA8;
+    border-radius: 4px;
+}
+
+.card__header__checkbox__label {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card__item__img {
+    width: 139px;
+    height: 134px;
+    border-radius: 100%;
+    box-shadow: 0.3335185647010803px 0.24931815266609192px 2.4224610328674316px 0px rgba(0, 0, 0, 0.03), 1.4366953372955322px 1.0739859342575073px 4.567187309265137px 0px rgba(0, 0, 0, 0.05), 3.4634618759155273px 2.5890731811523438px 7.6376953125px 0px rgba(0, 0, 0, 0.06), 6.567749977111816px 4.909649848937988px 12.837499618530273px 0px rgba(0, 0, 0, 0.08), 10.903491020202637px 8.150785446166992px 21.3701171875px 0px rgba(0, 0, 0, 0.09), 16.624616622924805px 12.42755126953125px 34.439064025878906px 0px rgba(0, 0, 0, 0.10), 23.885059356689453px 17.85501480102539px 53.24785232543945px 0px rgba(0, 0, 0, 0.12), 32.838748931884766px 24.548248291015625px 79px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card__item {
+    display: flex;
+    align-items: center;
+}
+
+.card__item__text-title,
+.card__item__text-span-1__span {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card__item__text__p {
+    color: #ACACAC;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 177%;
+    margin: 0px;
+}
+
+.card__item__text-span-1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card__item__text-span-1__img {
+    width: 20px;
+    height: 20px;
+}
+
+.card__item__text-span {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__item {
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    border-radius: 8px;
+    background: #1D1C3B;
+    box-shadow: 0.3335185647010803px 0.24931815266609192px 2.4224610328674316px 0px rgba(0, 0, 0, 0.03), 1.4366953372955322px 1.0739859342575073px 4.567187309265137px 0px rgba(0, 0, 0, 0.05), 3.4634618759155273px 2.5890731811523438px 7.6376953125px 0px rgba(0, 0, 0, 0.06), 6.567749977111816px 4.909649848937988px 12.837499618530273px 0px rgba(0, 0, 0, 0.08), 10.903491020202637px 8.150785446166992px 21.3701171875px 0px rgba(0, 0, 0, 0.09), 16.624616622924805px 12.42755126953125px 34.439064025878906px 0px rgba(0, 0, 0, 0.10), 23.885059356689453px 17.85501480102539px 53.24785232543945px 0px rgba(0, 0, 0, 0.12), 32.838748931884766px 24.548248291015625px 79px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.card__item__text {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.card__item__text-title {
+    margin: 0px;
+}
